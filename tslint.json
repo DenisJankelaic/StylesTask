@@ -1,0 +1,6 @@
+{
+  "extends": "simplr-tslint",
+  "rules": {
+    "semicolon": [true, "always", "ignore-interfaces"]
+  }
+}

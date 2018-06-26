@@ -1,0 +1,54 @@
+
+.input{
+    display: flex;
+    justify-content: center;
+
+}
+.frame{
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex: 1 0 auto;
+    max-height: 20px;
+}
+.table{
+    width: 60%;
+    align-self: center;
+    background-color: #fffec7;
+    border-radius: 15px;
+    border: 5px solid black;
+    thead{
+        background: gold;
+        font-family: Lato-Bold;
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    th {
+        border: 3px solid black;
+        
+    }
+    tr {
+        border: 1px solid black;
+        :nth-child(odd) {
+            background: #fffaa1;
+        }
+        td {
+            padding:10px;
+            text-align: center;
+            &hover{
+
+            }
+            
+        }
+    }
+    tbody{
+        border-radius: 10px;
+
+    }
+}
